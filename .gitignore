@@ -1,0 +1,73 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Build output
+build
+out
+coverage
+*.tsbuildinfo
+*.d.ts
+*.map
+
+# Vite
+.vite
+vite.svg
+
+# TypeScript
+tsconfig.tsbuildinfo
+
+# Local env files
+.env
+.env.*
+
+# Mac system files
+# (already included above, but repeated for clarity)
+# .DS_Store
+
+# Server subproject
+server/node_modules
+server/dist
+server/build
+server/.env
+server/coverage
+server/*.tsbuildinfo
+
+# Misc
+*.tgz
+*.gz
+*.zip
+*.tmp
+tmp/
+temp/
+
+# IDEs
+*.iml
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+__MACOSX/
